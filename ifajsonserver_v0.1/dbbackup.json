@@ -1,0 +1,683 @@
+{
+  "indent": [
+    {
+      "id": 1,
+      "number": "189EDCHK",
+      "date": "10-01-2019",
+      "salesOrder": "HK-123478",
+      "yarnName": "Yarn 1",
+      "country": "India",
+      "quantity": "200 kg"
+    },
+    {
+      "id": 2,
+      "number": "189EDCHE",
+      "date": "08-01-2019",
+      "salesOrder": "HK-123474",
+      "yarnName": "Yarn 2",
+      "country": "Egypt",
+      "quantity": "100 kg"
+    },
+    {
+      "id": 3,
+      "number": "189EDCHV",
+      "date": "09-01-2019",
+      "salesOrder": "HK-123477",
+      "yarnName": "Yarn 1",
+      "country": "Australia",
+      "quantity": "500 kg"
+    },
+    {
+      "number": "189EDCHK",
+      "date": "10-01-2019",
+      "salesOrder": "HK-123478",
+      "yarnName": "Yarn 1",
+      "country": "India",
+      "quantity": "200 kg",
+      "id": 4
+    }
+  ],
+  "salesOrder": [
+    {
+      "id": 1,
+      "number": "HK-123474",
+      "date": "08-01-2019",
+      "customerName": "Deloit Products",
+      "country": "Australia",
+      "towelDetails": [
+        {
+          "towelName": "Face Towel",
+          "colour": ":Pink",
+          "quantity": "100"
+        },
+        {
+          "towelName": "Bath Towel",
+          "colour": "Pink",
+          "quantity": "50"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": "HK-123477",
+      "date": "09-01-2019",
+      "customerName": "Success Products",
+      "country": "France",
+      "towelDetails": [
+        {
+          "towelName": "Face Towel",
+          "colour": "Blue",
+          "quantity": "200"
+        },
+        {
+          "towelName": "Bath Towel",
+          "colour": "Red",
+          "quantity": "100"
+        }
+      ]
+    },
+    {
+      "country": "Austraila",
+      "customerName": "Maran",
+      "date": "2019-01-08",
+      "number": "DG-21",
+      "towelDetails": [
+        {
+          "colour": "Green",
+          "quantity": "10 kg",
+          "towelName": "Terry"
+        },
+        {
+          "colour": "Red",
+          "quantity": "32kg",
+          "towelName": "Siraj"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "country": "India",
+      "customerName": "Vivek",
+      "date": "2019-01-06",
+      "number": "VG-12",
+      "towelDetails": [
+        {
+          "colour": "blue",
+          "quantity": "23 kg",
+          "towelName": "Bath"
+        },
+        {
+          "colour": "Red",
+          "quantity": "32kg",
+          "towelName": "Siraj"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "country": "India",
+      "customerName": "Ramraj",
+      "date": "2019-01-08",
+      "number": "SA-232",
+      "towelDetails": [
+        {
+          "colour": "",
+          "quantity": "",
+          "towelName": ""
+        },
+        {
+          "colour": "Red",
+          "quantity": "32kg",
+          "towelName": "Siraj"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "country": "Eqypt",
+      "customerName": "Anitha",
+      "date": "2019-01-06",
+      "number": "Df-12",
+      "towelDetails": [
+        {
+          "colour": "White",
+          "quantity": "25 kg",
+          "towelName": "Bath towel"
+        },
+        {
+          "colour": "Red",
+          "quantity": "32kg",
+          "towelName": "Siraj"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "country": "india",
+      "customerName": "nike",
+      "date": "2019-01-12",
+      "number": "so001",
+      "towelDetails": [
+        {
+          "colour": "bkue",
+          "quantity": "10",
+          "towelName": "bath towel"
+        },
+        {
+          "colour": "Red",
+          "quantity": "32kg",
+          "towelName": "Siraj"
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "purchaseOrder": [
+    {
+      "id": 1,
+      "number": "HK-123474",
+      "date": "08-01-2019",
+      "yarnDetails": [
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        },
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": "HK-123477",
+      "date": "09-01-2019",
+      "customerName": "Success Products",
+      "country": "France",
+      "yarnDetails": [
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        },
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": "HK-123478",
+      "date": "10-01-2019",
+      "customerName": "Great Products",
+      "country": "Agrentina",
+      "yarnDetails": [
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        },
+        {
+          "yarnName": "Fine Yarn",
+          "country": "Australia",
+          "quantity": "100 Kg"
+        }
+      ]
+    }
+  ],
+  "deviceTypes": [
+    {
+      "id": 1,
+      "type": "Desktop Reader"
+    },
+    {
+      "id": 2,
+      "type": "Hand Held Reader"
+    },
+    {
+      "id": 3,
+      "type": "Wall Mount Reader"
+    }
+  ],
+  "metadata": [
+    {
+      "id": 1,
+      "orgName": "Sharadha Terry - Mtp",
+      "departments": [
+        {
+          "deptId": 1,
+          "deptName": "Store",
+          "process": [
+            {
+              "processId": 1,
+              "processName": "Store",
+              "assest": [
+                {
+                  "assestId": 1,
+                  "assestName": "Pallette"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "deptId": 2,
+          "deptName": "WPD",
+          "process": [
+            {
+              "processId": 1,
+              "processName": "Warping",
+              "assest": [
+                {
+                  "assestId": 1,
+                  "assestName": "Beam"
+                }
+              ]
+            },
+            {
+              "processId": 2,
+              "processName": "Sizing",
+              "assest": [
+                {
+                  "assestId": 1,
+                  "assestName": "Beam"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "deptId": 3,
+          "deptName": "Weaving",
+          "process": [
+            {
+              "processId": 1,
+              "processName": "Weaving",
+              "assest": [
+                {
+                  "assestId": 1,
+                  "assestName": "Roll"
+                },
+                {
+                  "assestId": 2,
+                  "assestName": "Fabric"
+                },
+                {
+                  "assestId": 3,
+                  "assestName": "Trolley"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],"operator": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2004080770A0230128095E0",
+      "name" : "operator"
+    },{
+      "tagId": 2,
+      "tagNumber": "E2004080770A0235130095F2",
+      "name" : "operator"
+    },{
+      "tagId": 3,
+      "tagNumber": "E2004080770A023622502C55",
+      "name" : "operator"
+    },{
+      "tagId": 4,
+      "tagNumber": "E73B7FFF44BDBF59F7D5",
+      "name" : "operator"
+    },{
+      "tagId": 5,
+      "tagNumber": "E73B7FFF44BDBFB2B775",
+      "name" : "operator"
+    },{
+      "tagId": 6,
+      "tagNumber": "E73B7FFF44BDBFB6F7AA",
+      "name" : "operator"
+    }
+  ],"palette": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000016920600471260981E",
+      "name" : "palette"
+    },{
+      "tagId": 2,
+      "tagNumber": "E2000016920602741190A06F",
+      "name" : "palette"
+    },{
+      "tagId": 3,
+      "tagNumber": "E20000169206007612509A7C",
+      "name" : "palette"
+    },{
+      "tagId": 4,
+      "tagNumber": "E20000169206009812509AAB",
+      "name" : "palette"
+    },{
+      "tagId": 5,
+      "tagNumber": "E20000169206014312209D45",
+      "name" : "palette"
+    },{
+      "tagId": 6,
+      "tagNumber": "E2000016920600321300939F",
+      "name" : "palette"
+    },{
+      "tagId": 7,
+      "tagNumber": "E20000169206011212309ACE",
+      "name" : "palette"
+    },{
+      "tagId": 8,
+      "tagNumber": "E20000169206014612509B0B",
+      "name" : "palette"
+    },{
+      "tagId": 9,
+      "tagNumber": "E20000169206011413009440",
+      "name" : "palette"
+    },{
+      "tagId": 10,
+      "tagNumber": "E200001692060063130093E6",
+      "name" : "palette"
+    }
+  ],"warpingmachine": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000017060C020218305E24",
+      "name" : "warping"
+    },{
+      "tagId": 2,
+      "tagNumber": "E2000017060C0106200049EE",
+      "name" : "warping"
+    }
+  ],"sizingmachine": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000017060F014214408807",
+      "name" : "sizing"
+    }
+  ],"weavingmachine": [
+    {
+      "tagId": 1,
+      "tagNumber": "E28011606000020755D3C5C9",
+      "name" : "weaving"
+    }
+  ],"inspectionmachine": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000016930F019613908A0D",
+      "name" : "inspection"
+    }
+  ],"pilebeam": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000016920601031200A149",
+      "name" : "finalPile"
+    },{
+      "tagId": 2,
+      "tagNumber": "E20000169206005112309A57",
+      "name" : "finalPile"
+    }
+  ],"groundbeam": [
+    {
+      "tagId": 1,
+      "tagNumber": "E20000169206005012609827",
+      "name" : "finalGround"
+    },{
+      "tagId": 2,
+      "tagNumber": "E2000016920601661200A1C4",
+      "name" : "finalGround"
+    }
+  ],"beam": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000016920600861300940E",
+      "name" : "ground"
+    },{
+      "tagId": 2,
+      "tagNumber": "E200001692060014129095B1",
+      "name" : "ground"
+    },{
+      "tagId": 3,
+      "tagNumber": "E20000169206006412209C9E",
+      "name" : "ground"
+    },{
+      "tagId": 4,
+      "tagNumber": "E20000169206017511909FB5",
+      "name" : "ground"
+    },{
+      "tagId": 5,
+      "tagNumber": "E20000169206007812509A89",
+      "name" : "ground"
+    }
+  ],"roll": [
+    {
+      "tagId": 1,
+      "tagNumber": "E200001692060243126099A0",
+      "name" : "roll"
+    },{
+      "tagId": 2,
+      "tagNumber": "E20000169206016312309B37",
+      "name" : "roll"
+    }
+  ],"fabric": [
+    {
+      "tagId": 1,
+      "tagNumber": "E20096D117AEDC48E7E8140C",
+      "name" : "fabric"
+    },{
+      "tagId": 2,
+      "tagNumber": "E20096D1164B1E88E7E45FF0",
+      "name" : "fabric"
+    },{
+      "tagId": 3,
+      "tagNumber": "E20096D1154C9948E7E1A26D",
+      "name" : "fabric"
+    }
+  ],"trolley": [
+    {
+      "tagId": 1,
+      "tagNumber": "E20000166303024624801B8B",
+      "name" : "trolley"
+    },{
+      "tagId": 2,
+      "tagNumber": "E20000166303022624601BAD",
+      "name" : "trolley"
+    }
+  ],"confectionmachine": [
+    {
+      "tagId": 1,
+      "tagNumber": "E2000016630301410310EEB8",
+      "name" : "confection"
+    },{
+      "tagId": 2,
+      "tagNumber": "E20000166301024615107D46",
+      "name" : "confection"
+    }
+  ], "crossCut": [
+    {
+      "tagId": 1,
+      "tagNumber": "E73BFFD3DBBEDBBB9646",
+      "name" : "cross"
+    },{
+      "tagId": 2,
+      "tagNumber": "E73BFFD3DBBEBDDB1FD5",
+      "name" : "cross"
+    },{
+      "tagId": 3,
+      "tagNumber": "E73BFFD3DBBEBDDBFFBD",
+      "name" : "cross"
+    },{
+      "tagId": 4,
+      "tagNumber": "E73BFFD3DBBEBBDB3FD1",
+      "name" : "cross"
+    },{
+      "tagId": 5,
+      "tagNumber": "E73BFFD3DBBEBFB4F7BB",
+      "name" : "cross"
+    },{
+      "tagId": 6,
+      "tagNumber": "E73BFFD3DBBE37DBBFC7",
+      "name" : "cross"
+    },{
+      "tagId": 7,
+      "tagNumber": "E73BFFD3DBBEDD7713E2",
+      "name" : "cross"
+    },{
+      "tagId": 8,
+      "tagNumber": "E73BFFD3DBBE7BDB9FC9",
+      "name" : "cross"
+    },{
+      "tagId": 9,
+      "tagNumber": "E73BFFD3DBBE71DB3FCF",
+      "name" : "cross"
+    },{
+      "tagId": 10,
+      "tagNumber": "E73BFFD3DBBE0FDB5FCB",
+      "name" : "cross"
+    },{
+      "tagId": 11,
+      "tagNumber": "E73BFFD3DBBE15DDDF30",
+      "name" : "cross"
+    },{
+      "tagId": 12,
+      "tagNumber": "E73BFFD3DBBE15DB5FCB",
+      "name" : "cross"
+    },{
+      "tagId": 13,
+      "tagNumber": "E73BFFD3DBBED57713A2",
+      "name" : "cross"
+    },{
+      "tagId": 14,
+      "tagNumber": "E73BFFD3DBBEBFDB3FCD",
+      "name" : "cross"
+    },{
+      "tagId": 15,
+      "tagNumber": "E73BFFD3DBBED7DBDF35",
+      "name" : "cross"
+    },{
+      "tagId": 16,
+      "tagNumber": "E73BFFD3DBBE33DBFFBD",
+      "name" : "cross"
+    },{
+      "tagId": 17,
+      "tagNumber": "E73BFFD3DBBEBFB7F7F3",
+      "name" : "cross"
+    },{
+      "tagId": 18,
+      "tagNumber": "E73BFFD3DBBE5FDB3FCF",
+      "name" : "cross"
+    },{
+      "tagId": 19,
+      "tagNumber": "E73BFFD3DBBE73DB5FC9",
+      "name" : "cross"
+    },{
+      "tagId": 20,
+      "tagNumber": "E73BFFD3DBBE9DDBDF9A",
+      "name" : "cross"
+    },{
+      "tagId": 21,
+      "tagNumber": "E73BFFD3DBBED7D9FFD7",
+      "name" : "cross"
+    },{
+      "tagId": 22,
+      "tagNumber": "E73BFFD3DBBECFBBB552",
+      "name" : "cross"
+    },{
+      "tagId": 23,
+      "tagNumber": "E73BFFD3DBBEBF51F7F3",
+      "name" : "cross"
+    },{
+      "tagId": 24,
+      "tagNumber": "E73BFFD3DBBE39D9FFD9",
+      "name" : "cross"
+    },{
+      "tagId": 25,
+      "tagNumber": "E73BFFD3DBBE9BD9FFD9",
+      "name" : "cross"
+    },{
+      "tagId": 26,
+      "tagNumber": "E73BFFD3DBBEDBDB9FCB",
+      "name" : "cross"
+    },{
+      "tagId": 27,
+      "tagNumber": "E73BFFD3DBBE75DB5FC9",
+      "name" : "cross"
+    },{
+      "tagId": 28,
+      "tagNumber": "E73BFFD3DBBE19DDDF30",
+      "name" : "cross"
+    },{
+      "tagId": 29,
+      "tagNumber": "E73BFFD3DBBEB9DB5FCB",
+      "name" : "cross"
+    },{
+      "tagId": 30,
+      "tagNumber": "E73BFFD3DBBEF376D7BC",
+      "name" : "cross"
+    },{
+      "tagId": 31,
+      "tagNumber": "E73BFFD3DBBE91D9FFD7",
+      "name" : "cross"
+    },{
+      "tagId": 32,
+      "tagNumber": "E73BFFD3DBBEF9DBFFBD",
+      "name" : "cross"
+    },{
+      "tagId": 33,
+      "tagNumber": "E73BFFD3DBBE5DDB9FCB",
+      "name" : "cross"
+    },{
+      "tagId": 34,
+      "tagNumber": "E73BFFD3DBBE39DB9FC9",
+      "name" : "cross"
+    },{
+      "tagId": 35,
+      "tagNumber": "E73BFFD3DBBEBF6D3FCD",
+      "name" : "cross"
+    },{
+      "tagId": 36,
+      "tagNumber": "E73BFFD3DBBE79DBBFC5",
+      "name" : "cross"
+    },{
+      "tagId": 37,
+      "tagNumber": "E73BFFD3DBBE13DB5FCB",
+      "name" : "cross"
+    }
+  ]
+}
+
+/*
+
+[
+  {
+   adult: false
+backdrop_path: "/gNBCvtYyGPbjPCT1k3MvJuNuXR6.jpg"
+genre_ids: (3) [35, 18, 10749]
+id: 19404
+original_language: "hi"
+original_title: "दिलवाले दुल्हनिया ले जायेंगे"
+overview: "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga."
+popularity: 17.786
+poster_path: "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg"
+release_date: "1995-10-20"
+title: "Dilwale Dulhania Le Jayenge"
+video: false
+vote_average: 8.7
+vote_count: 2848
+  }
+]
+
+*/
+
+
+
+
+
+
+
+
